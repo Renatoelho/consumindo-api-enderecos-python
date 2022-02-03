@@ -35,7 +35,12 @@ for cep in lista_ceps:
 
             endereco = req.json()
 
-            lista_enderecos.append([endereco['cep'], endereco['logradouro'], endereco['complemento'], endereco['bairro'], endereco['localidade'], endereco['uf']])
+            lista_enderecos.append([endereco['cep'], 
+            			    endereco['logradouro'], 
+            			    endereco['complemento'], 
+            			    endereco['bairro'], 
+            			    endereco['localidade'], 
+            			    endereco['uf']])
 
         else:
             print('Ocorreu o seguinte erro no acesso da API: {}'.format(req.raise_for_status()))
