@@ -1,6 +1,6 @@
 # Consumindo uma API de endereços com Python
 
-### Requisitos mínimos para instalação:
+### Requisitos mínimos:
 
 >> Sistema operacional Linux (Ubuntu 20.04.2 LTS)  <br/>Memória RAM de 4GB ou mais  <br/>Python 3 instalado
 
