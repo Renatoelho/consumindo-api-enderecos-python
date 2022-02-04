@@ -1,6 +1,6 @@
 # Consumindo uma API de endereços com Python
 
-Imagine que você tem uma base de endereços de clientes que esteja incompleta, e que queira atualizar, uma das melhores maneiras seria utilizar uma API e o Python para fazer as requisições. Neste nosso exemplo aqui vamos utilizar a API da [Via CEP](https://viacep.com.br/), onde iremos passar na requisição um determinado CEP e a API vai retornar vários atributos de endereço ligados ao CEP em questão, em seguida esses dados retornados podem ser inseridos em um banco de dados ou em qualquer outra base de dados, em nosso exemplo aqui vamos passar uma lista com alguns números de CEP e iremos obter uma nova lista com vários atributos relacionado a esses CEPs como: bairro, localidade, uf e etc.
+Imagine que você tem uma base de endereços de clientes que esteja incompleta e que queira atualizar, uma das melhores maneiras seria utilizar uma API e o Python para fazer as requisições. Neste nosso exemplo aqui vamos utilizar a API da [Via CEP](https://viacep.com.br/), onde iremos passar na requisição um determinado CEP e a API vai retornar vários atributos de endereço ligados ao CEP em questão, em seguida esses dados retornados podem ser inseridos em um banco de dados ou em qualquer outra base de dados, em nosso exemplo aqui vamos passar uma lista com alguns números de CEP e iremos obter uma nova lista com vários atributos relacionado a esses CEPs como: bairro, localidade, uf e etc.
 
 Para instalar as bibliotecas necessárias no Python utilize o arquivo *requeriments.txt* e execute o seguinte comando:
 
