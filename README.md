@@ -1,9 +1,5 @@
 # Consumindo uma API de endereços com Python
 
-### Requisitos mínimos:
-
->> Sistema operacional Linux (Ubuntu 20.04.2 LTS)  <br/>Memória RAM de 4GB ou mais  <br/>Python 3 instalado
-
 Imagine que você tem uma base de endereços de clientes que esteja incompleta, e que queira atualizar, uma das melhores maneiras seria utilizar uma API e o Python para fazer as requisições. Neste nosso exemplo aqui vamos utilizar a API da [Via CEP](https://viacep.com.br/), onde iremos passar na requisição um determinado CEP e a API vai retornar vários atributos de endereço ligados ao CEP em questão, em seguida esses dados retornados podem ser inseridos em um banco de dados ou em qualquer outra base de dados, em nosso exemplo aqui vamos passar uma lista com alguns números de CEP e iremos obter uma nova lista com vários atributos relacionado a esses CEPs como: bairro, localidade, uf e etc.
 
 Para instalar as bibliotecas necessárias no Python utilize o arquivo *requeriments.txt* e execute o seguinte comando:
@@ -55,8 +51,11 @@ for item in lista_enderecos:
 
 ![Acessando API com PYthon](https://drive.google.com/uc?export=view&id=12sfKBnNuzE8c92HZXaZn5gdueh1rgyqE)
 
->> **Importante:** A utilização da API do [Via CEP](https://viacep.com.br/) aqui é somente com a intenção de contextualizar como seria a execução de requisições para uma determinada API com auxílio da linguagem **Python**, pois no mercado existem várias empresas que fornecem esse tipo de serviço e que seria o mais adequado para solucionar questões desse tipo.
+>> **Importante:** A utilização da API do [Via CEP](https://viacep.com.br/) aqui é somente com a intenção de contextualizar como seria a execução de requisições para uma determinada API com auxílio da linguagem **Python**, pois no mercado existem várias empresas que fornecem esse tipo de serviço pago e que seria o mais adequado para solucionar questões desse tipo.
 
+### Requisitos mínimos:
+
+>> Sistema operacional Linux (Ubuntu 20.04.2 LTS)  <br/>Memória RAM de 4GB ou mais  <br/>Python 3 instalado
 
 <b>Até breve!</b>
 
