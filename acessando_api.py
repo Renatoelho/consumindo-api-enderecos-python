@@ -1,4 +1,4 @@
-#!/home/renato/Documentos/github/consumindo-api-enderecos-python/.venv/bin/python3
+#!/usr/bin/python3
 
 import requests
 
